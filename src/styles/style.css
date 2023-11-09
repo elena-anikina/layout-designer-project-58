@@ -44,7 +44,6 @@
 html, body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 header {
@@ -77,9 +76,18 @@ body {
     color: var(--main);
 }
 
+.h2-title-font-size {
+    font-size: var(--h2-title-font-size);
+}
+
+.text-align-section {
+    text-align: var(--text-align-section);
+}
+
 .section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 100px;
     max-width: var(--max-width-section);
 }
@@ -123,4 +131,20 @@ body {
     background-color: var(--main);
     color: var(--white);
     border: none;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.video-filter {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.main-dark-background {
+    background-color: var(--main-dark);
+}
+
+.overflow-section {
+    margin-top: -200px;
 }
